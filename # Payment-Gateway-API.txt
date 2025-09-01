@@ -1,0 +1,18 @@
+# Payment-Gateway-API
+API Documentation for a Payment Gateway with the payee's information 
+<paymentRequest>
+    <merchantId>2727</merchantId>
+    <transactionId>0095</transactionId>
+    <amount currency="INR">150.00</amount>
+    <paymentMethod>credit_card</paymentMethod>
+    <cardDetails>
+        <cardNumber>4111111111111111</cardNumber>
+        <expiryMonth>08</expiryMonth>
+        <expiryYear>2026</expiryYear>
+        <cvv>123</cvv>
+    </cardDetails>
+    <customer>
+        <name>Ally Kapoor</name>
+        <email>allykapoor@xyz.com</email>
+    </customer>
+</paymentRequest>
